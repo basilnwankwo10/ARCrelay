@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Hardhat & Solidity artifacts
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Build outputs
+dist/
+**/dist/
+.next/
+**/.next/
+out/
+**/out/
+
+# Secrets & Environment (CRITICAL: Never commit secrets)
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+**/.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tsbuildinfo

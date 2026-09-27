@@ -1,0 +1,40 @@
+{
+  "name": "@arcrelay/sdk",
+  "version": "0.1.0",
+  "description": "Official 3-line developer SDK for ArcRelay — The Gasless Economic Layer for Arc (ERC-4337 v0.7 Paymaster).",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "arc",
+    "circle",
+    "erc-4337",
+    "account-abstraction",
+    "paymaster",
+    "gasless",
+    "usdc",
+    "sdk"
+  ],
+  "author": "ArcRelay (@ArcRelayHQ)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

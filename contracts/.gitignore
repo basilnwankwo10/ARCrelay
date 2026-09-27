@@ -1,0 +1,9 @@
+node_modules/
+cache/
+artifacts/
+typechain/
+typechain-types/
+.env
+.env.*
+!.env.example
+*.log
