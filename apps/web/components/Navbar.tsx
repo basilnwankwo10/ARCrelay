@@ -48,6 +48,15 @@ export function Navbar({ onOpenPilot }: NavbarProps) {
             <span>Verified Contract</span>
             <ExternalLink className="w-3.5 h-3.5" />
           </a>
+          <a
+            href="https://t.me/ArcRelayDemo_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-slate-400 hover:text-arc-cyan transition-colors"
+          >
+            <span>Telegram Bot</span>
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
         </nav>
 
         {/* Action Buttons */}

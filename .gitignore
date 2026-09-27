@@ -27,7 +27,7 @@ out/
 **/.env
 **/.env.*
 !.env.example
-**/.env.example
+!**/.env.example
 *.pem
 *.key
 
@@ -44,3 +44,10 @@ Thumbs.db
 .vscode/
 .idea/
 *.tsbuildinfo
+
+# Bot local databases & state
+leads.json
+**/leads.json
+demo_offset.json
+**/demo_offset.json
+

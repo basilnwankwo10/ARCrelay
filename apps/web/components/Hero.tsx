@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, ArrowRight, Play, CheckCircle2, Shield, Zap, Code2 } from 'lucide-react';
+import { Sparkles, ArrowRight, Play, CheckCircle2, Shield, Zap, Code2, Send } from 'lucide-react';
 
 interface HeroProps {
   onOpenPilot: () => void;
@@ -31,7 +31,7 @@ export function Hero({ onOpenPilot }: HeroProps) {
         </p>
 
         {/* CTAs */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
           <button
             onClick={onOpenPilot}
             className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-arc-cyan to-arc-blue text-arc-dark font-bold text-base hover:brightness-110 shadow-glow-cyan transition-all flex items-center justify-center gap-2 group"
@@ -41,16 +41,26 @@ export function Hero({ onOpenPilot }: HeroProps) {
           </button>
 
           <a
+            href="https://t.me/ArcRelayDemo_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-arc-card/80 border border-arc-border hover:border-arc-cyan/40 text-slate-200 font-semibold text-base transition-all flex items-center justify-center gap-2 hover:bg-arc-card"
+          >
+            <Send className="w-4 h-4 text-arc-cyan" />
+            <span>Telegram Bot Demo</span>
+          </a>
+
+          <a
             href="#simulator"
-            className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-arc-card/80 border border-arc-border hover:border-arc-cyan/40 text-slate-200 font-semibold text-base transition-all flex items-center justify-center gap-2 hover:bg-arc-card"
+            className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-arc-card/80 border border-arc-border hover:border-arc-cyan/40 text-slate-200 font-semibold text-base transition-all flex items-center justify-center gap-2 hover:bg-arc-card"
           >
             <Play className="w-4 h-4 text-arc-cyan fill-arc-cyan/20" />
-            <span>Interactive Simulator</span>
+            <span>Web Simulator</span>
           </a>
 
           <a
             href="#sdk"
-            className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-transparent hover:bg-white/5 text-slate-400 hover:text-white font-medium text-base transition-colors flex items-center justify-center gap-2"
+            className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-transparent hover:bg-white/5 text-slate-400 hover:text-white font-medium text-base transition-colors flex items-center justify-center gap-2"
           >
             <Code2 className="w-4 h-4" />
             <span>View SDK</span>

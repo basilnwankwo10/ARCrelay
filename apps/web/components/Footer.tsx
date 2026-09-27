@@ -32,6 +32,14 @@ export function Footer() {
               X / Twitter (@ArcRelayHQ)
             </a>
             <a
+              href="https://t.me/ArcRelayDemo_bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-arc-cyan transition-colors"
+            >
+              Telegram Bot (@ArcRelayDemo_bot)
+            </a>
+            <a
               href="https://testnet.arcscan.app/address/0x600c83F91464440A1Fc2c4C723C78e2f51F43096"
               target="_blank"
               rel="noopener noreferrer"
