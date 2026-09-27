@@ -55,13 +55,13 @@
 
 ---
 
-### ⏳ Sprint 2: Days 15 – 30 (Oct 9 – Oct 24) — The Product & SDK
+### ✅ Sprint 2: Days 15 – 30 (Oct 9 – Oct 24) — The Product & SDK (COMPLETED)
 **Primary Goal:** Package the engine into a dead-simple developer product.
 
 - [x] **Task 2.1: Brand & Domain Setup** (Completed ✅)
   - [x] Reserve official social handle `@ArcRelayHQ` on X/Twitter (Avatar & Header live).
   - [x] Publish institutional open-source `README.md` with verified testnet proofs & badges.
-  - [x] Register domain (`arcrelay.tech` via WhoGoHost). DNS ready for Vercel deployment.
+  - [x] Register domain (`arcrelay.tech` via WhoGoHost) & connect DNS to Vercel.
 - [x] **Task 2.2: Developer Client SDK** (Completed ✅)
   - [x] Publish lightweight client library (`@arcrelay/sdk`) for TypeScript and Python (`arcrelay-sdk`).
   - [x] Enable 3-line integration: `await arcrelay.sponsor(tx)`.
@@ -69,9 +69,10 @@
 - [x] **Task 2.3: B2B Landing Page** (Completed ✅)
   - [x] Build high-converting 1-page site in `apps/web` with interactive 1-tap gasless simulator.
   - [x] Add interactive code explorer for `@arcrelay/sdk` and "Apply for Pilot" ($500 gas credit) intake modal.
-  - [x] Verified production build (`next build`) passing with 100% static generation. Ready for Vercel deployment.
-- [ ] **Task 2.4: Interactive Telegram Demo**
-  - [ ] Wire `/sponsor-demo` command into `@Kairo10_bot` so partners can test gasless tx from phone.
+  - [x] Deployed and 100% live worldwide at `https://arcrelay.tech` with free Anycast SSL.
+- [x] **Task 2.4: Interactive Telegram Demo** (Completed ✅)
+  - [x] Wire `/sponsor-demo` command into `@Kairo10_bot` for instant 3-second mobile testnet verification.
+  - [x] Update `/progress` and `/status` with live Sprint 2 deliverables.
 
 ---
 
